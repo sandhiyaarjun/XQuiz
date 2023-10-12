@@ -22,7 +22,7 @@ public class Quiz{
                         finalScore = 0;
                     }
                     else{
-                        System.out.println("Question is null");
+                        System.out.println("quizName is null");
                     }
                 }
         
@@ -49,10 +49,14 @@ public class Quiz{
             if(question !=null){
                 questions.add(question);
             }
+            
             else{
                 System.out.println("Question cannot be null");
             }
-         }
+             if(question == null){
+                System.out.println("Question is null");
+            }
+         } 
 
 
 
