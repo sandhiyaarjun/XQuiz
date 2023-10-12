@@ -21,6 +21,9 @@ public class Quiz{
                         questions = new ArrayList<Question>();
                         finalScore = 0;
                     }
+                    else{
+                        System.out.println("Question is null");
+                    }
                 }
         
 
