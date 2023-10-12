@@ -36,6 +36,9 @@ public class Question{
                                                                 present = true;
                                                         }
                                                 }
+                                                if(questionText == null || questionText.isEmpty()){
+                                                        System.out.println("Question text is null!");
+                                                }
                                                 if(present){
                                                         this.questionText = questionText;
                                                         this.answer = answer;
