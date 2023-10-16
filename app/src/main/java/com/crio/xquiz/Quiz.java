@@ -17,13 +17,17 @@ public class Quiz{
                 // initialise the finalScore to Zero
                 public Quiz(String quizName){
                     if(quizName != null && !quizName.isEmpty()){
+                       
                         this.quizName = quizName;
                         questions = new ArrayList<Question>();
                         finalScore = 0;
                     }
+                   
+                    
                     else{
-                        System.out.println("quizName is null");
+                        System.out.println("QuizName cannot be null or empty!");
                     }
+                   
                 }
         
 
@@ -46,17 +50,25 @@ public class Quiz{
         // Validate: If question is Null, print “Question cannot be null!”.
          // If question is not null then add the question to list of questions
          public void addQuestion(Question question){
+            
             if(question !=null){
                 questions.add(question);
             }
             
+            
+            
             else{
-                System.out.println("Question cannot be null");
+                System.out.println("Question cannot be null!");
             }
-             if(question == null){
-                System.out.println("Question is null");
-            }
-         } 
+        
+        
+           
+          }  // else{
+            //     System.out.println("Question is null");
+            // }
+
+            
+         
 
 
 
