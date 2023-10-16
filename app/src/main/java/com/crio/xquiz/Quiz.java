@@ -25,7 +25,7 @@ public class Quiz{
                    
                     
                     else{
-                        System.out.println("QuizName cannot be null or empty!");
+                        System.out.println("Quiz Name cannot be null or empty!");
                     }
                    
                 }

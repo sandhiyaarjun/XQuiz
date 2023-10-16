@@ -33,7 +33,7 @@ public class QuizTest {
         new Quiz(quizName);
 
         //assert
-        assertEquals( "QuizName cannot be null or empty!", outputStreamCaptor.toString().trim());
+        assertEquals( "Quiz Name cannot be null or empty!", outputStreamCaptor.toString().trim());
         System.setOut(standardOut);
     }
 
